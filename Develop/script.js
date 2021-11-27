@@ -81,66 +81,6 @@ while ((specialCharacter && numericValue && lowerCharacter && upperCharacter ===
   
 }
 
-
-// // //  }}
-
-//  else {alert ("Please select at least one Character Type");
-//   return "Please select at least one Character Type"
-// };
-// };
-
-
-
-
-
-
-
-
-
-
-
-
-// // else  {
-
-// // if (numberOfCharacters.indexOf(numberOfCharacters) >= 0) {
-// //   console.log("Length was selected appropriately");
-// //   let passwordArray = [];
-// // {
-// // if (specialCharacter ===true) {passwordArray = passwordArray.concat(getRandomSpecialCharacter);}
-// // if (numericValue) {passwordArray = passwordArray.concat(getRandomNumber);}
-// // if (lowerCharacter) {passwordArray = passwordArray.concat(getRandomLower);}
-// // if (upperCharacter) {passwordArray = passwordArray.concat(getRandomUpper);}
-
-// // }
-
-// // const passChars = [];
-// // for (let i = 0; i < pwdLength; i++) {
-// //   const characters =
-// //   passwordArray[Math.floor(Math.random() * passwordArray.length)];
-// //   passChars.push(String.fromCharCode(characters));
-// // } 
-// // };
-
-
-
-
-
-
-
-// // return passChars
-
-// // return passChars.join("");
-
-
-// // }
-
-
-
-
-
-
-
-
 // // Write password to the #password input (starter code)
 function writePassword() {
   var password = generatePassword();
@@ -152,6 +92,8 @@ var passwordText = document.querySelector("#password");
 
 // // Add event listener to generate button (starter code)
 generateBtn.addEventListener("click", writePassword);
+
+
 
 
 
